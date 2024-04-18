@@ -1,0 +1,59 @@
+<router-outlet></router-outlet>
+
+<div id="page">
+    <div id="pagecontents">
+        <div id="header">
+            <div class="p-1 bg-primary text-white text-center">
+                <h1>Bootstrap 5</h1>
+                <p>Responsive page</p>
+            </div>
+        </div>
+
+        <div id="topmenu">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                               href="#"
+                               onclick="leftnavVisibilityHandler()">☰
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                               href="#">Physics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="#">Electronics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               href="#">Programming</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" hidden
+                               href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div id="leftnav-contents-rightnav">
+
+            <div class="row"
+                 id="mainrow">
+                <app-leftnav style="display: contents"></app-leftnav>
+                <app-main-body style="display: contents"></app-main-body>
+                <app-rightnav style="display: contents"></app-rightnav>
+            </div>
+
+        </div>
+
+        <app-footer style="display: contents"></app-footer>
+
+    </div>
+</div>
