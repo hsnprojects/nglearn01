@@ -16,7 +16,7 @@
     flex-direction: column;
     min-height: 100vh;
 
-    background-color: white;
+    background-color: rgb(184, 181, 157);
 }
 
 #leftnav-contents-rightnav {
@@ -37,7 +37,7 @@
     display: flex !important;
     flex-direction: column;
     display: inline;
-    background-color: rgb(231, 230, 230);
+    background-color: #deded5;
     padding: 10px;
     min-width: 200px;
 }
@@ -47,20 +47,20 @@
 }
 
 #content {
-    background-color: white;
+    background-color: rgb(236, 236, 230);
     padding: 10px;
 }
 
 #rightnav {
     flex: none;
-    background-color: rgb(231, 230, 230);
+    background-color: #deded5;
     padding: 10px;
     min-width: 200px;
 
 }
 
 #footer {
-    background-color: rgb(231, 230, 230);
+    background-color: #deded5;
     padding: 10px;
 }
 
@@ -73,7 +73,11 @@
 }
 
 #backtotop-and-message {
-    background-color: rgb(192, 192, 192);
+    background-color: #bfc5ab;
+}
+
+#backtotop-and-message button {
+    background-color: #bfc5ab;
 }
 
 #toTopLink {
@@ -87,4 +91,5 @@
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
+
 }
