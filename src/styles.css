@@ -1,14 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
-
 .row {
-    /* background: #f8f9fa; */
     --bs-gutter-x: 0;
-    border: soild 3px red;
+    border: soild 1px gray;
 }
 
 .col {
-    /* border: solid 1px #6c757d; */
-    border: soild 3px red;
+    border: soild 1px gray;
 }
 
 #pagecontents {
@@ -56,7 +52,6 @@
     background-color: rgb(231, 230, 230);
     padding: 10px;
     min-width: 200px;
-
 }
 
 #footer {
