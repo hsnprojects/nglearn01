@@ -13,14 +13,8 @@ export class MainBodyComponent {
   severalLines: number[] = [];
 
   public constructor() {
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 200; i++) {
       this.severalLines.push(i);
     }
   }
-
-  // public constructor(){
-  //   for(let i=0; i< 30; i++)
-  //     this.dynamicBody += "TEST<BR>";
-  // }
-
 }

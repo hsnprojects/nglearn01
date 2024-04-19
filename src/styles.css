@@ -79,3 +79,17 @@
 #backtotop-and-message button {
     background-color: #bfc5ab;
 }
+
+#toTopLink {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+
+}

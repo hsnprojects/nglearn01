@@ -1,6 +1,6 @@
 <!-- Make this visible only if height is more than twice the device height -->
 <div id="backtotop-and-message" class="d-flex justify-content-center">
-    <button class="align-self-center">Back to top</button>
+    <div class="align-self-center">About</div>
 </div>
 
 <div id="footer">
@@ -58,16 +58,3 @@
     <label id="info" style="margin-left: 5px;">{{timestamp}}</label>
 </div>
 
-<a id="toTopLink" class="hidden" href="#">Scroll to Top</a>
-
-<script>
-    window.addEventListener('scroll', () => {
-        const toTopLink = document.getElementById('toTopLink');
-
-        if (window.scrollY > 0) {
-            toTopLink.classList.remove('hidden');
-        } else {
-            toTopLink.classList.add('hidden');
-        }
-    }, true);
-</script>
