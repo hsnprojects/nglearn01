@@ -35,12 +35,11 @@
     if (window.scrollY > 500) {
       toTopLink.classList.remove("fadeOut");
       toTopLink.classList.add("fadeIn");
-
       toTopLink.style.display = "block";
     } else {
-      //toTopLink.classList.remove("fadeIn"); //This won't work because of immediate display: none
+      //This won't work because of following display: none
+      //toTopLink.classList.remove("fadeIn"); 
       //toTopLink.classList.add("fadeOut");
-
       toTopLink.style.display = "none";
     }
 
