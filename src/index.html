@@ -18,17 +18,19 @@
 
   <app-root style="display: contents"></app-root>
 
-  <div title="Go to Top" style="font-size:20px; background-color: transparent;">
-    <a id="toTopLink" style="background-color: transparent;display: none;" href='#'>&#9757;</a>
-  </div>
-
+  <a id="gotoTop" style="background-color: transparent; color: black; display: block;" href='#'>
+    <div title="Go to Top" style="color: black; font-size:20px; background-color: transparent;">
+      &#9757;
+    </div>
+  </a>
+  
 </body>
 
 <script>
 
   window.addEventListener('scroll', () => {
 
-    const toTopLink = document.getElementById('toTopLink');
+    const toTopLink = document.getElementById('gotoTop');
 
     if (window.scrollY > 500) {
       toTopLink.style.display = "block";
