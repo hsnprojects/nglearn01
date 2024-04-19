@@ -37,7 +37,7 @@
     display: flex !important;
     flex-direction: column;
     display: inline;
-    background-color: rgba(172, 201, 135, 0.342);
+    background-color: #deded5;
     padding: 10px;
     min-width: 200px;
 }
@@ -53,7 +53,7 @@
 
 #rightnav {
     flex: none;
-    background-color: rgb(179, 173, 149);
+    background-color: #deded5;
     padding: 10px;
     min-width: 200px;
 
