@@ -19,7 +19,7 @@
   <app-root style="display: contents"></app-root>
 
   <a id="gotoTop" style="text-decoration:none; background-color: transparent; color: black; display: block;" href='#'>
-    <div title="Go to Top" style="color: black; font-size:20px; background-color: transparent;">
+    <div title="Jump to Top" style="color: black; font-size:20px; background-color: transparent;">
       &#8648;
     </div>
   </a>
@@ -33,8 +33,14 @@
     const toTopLink = document.getElementById('gotoTop');
 
     if (window.scrollY > 500) {
+      toTopLink.classList.remove("fadeOut");
+      toTopLink.classList.add("fadeIn");
+
       toTopLink.style.display = "block";
     } else {
+      //toTopLink.classList.remove("fadeIn"); //This won't work because of immediate display: none
+      //toTopLink.classList.add("fadeOut");
+
       toTopLink.style.display = "none";
     }
 
